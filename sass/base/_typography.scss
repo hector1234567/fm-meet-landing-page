@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+@mixin text-preset-1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 6.4rem;
+  line-height: 110%;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: $Slate-900;
+
+  @include respond(tablet) {
+    font-size: 48px;
+  }
+
+  @include respond(mobile) {
+    font-size: 40px;
+  }
+}
+
+@mixin text-preset-2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 4rem;
+  line-height: 110%;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: $Slate-900;
+
+  @include respond(tablet) {
+    font-size: 36px;
+  }
+
+  @include respond(mobile) {
+    font-size: 32px;
+  }
+}
+
+@mixin text-preset-3 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+  line-height: 110%;
+  letter-spacing: 0.4rem;
+  font-weight: 700;
+  color: $Cyan-600;
+
+  @include respond(tablet) {
+    font-size: 14px;
+  }
+
+  @include respond(mobile) {
+    font-size: 12px;
+  }
+}
+
+@mixin text-preset-4 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.8rem;
+  line-height: 110%;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: $Slate-900;
+
+  @include respond(tablet) {
+    font-size: 16px;
+  }
+}
+
+@mixin text-preset-5 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: $Slate-900;
+}

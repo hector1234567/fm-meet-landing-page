@@ -1,0 +1,14 @@
+{
+  "name": "meet-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.83.1"
+  },
+  "scripts": {
+    "compile-sass": "sass sass/main.scss css/style.css -w"
+  },
+  "author": "Hector B",
+  "license": "ISC"
+}

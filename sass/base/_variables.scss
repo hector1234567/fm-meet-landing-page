@@ -1,0 +1,47 @@
+// Colors
+
+$Cyan-600: #4d96a9;
+$Cyan-300: #8fe3f9;
+
+$Purple-600: #855fb1;
+$Purple-300: #d9b8ff;
+
+$Slate-900: #28283d;
+$Slate-600: #87879d;
+$Slate-300: #d1d1df;
+
+$White: #fafafa;
+
+// Spacing
+
+$Spacing-1400: 11.2rem;
+$Spacing-1000: 8rem;
+$Spacing-900: 7.2rem;
+$Spacing-800: 6.4rem;
+$Spacing-700: 5.6rem;
+$Spacing-500: 4rem;
+$Spacing-400: 3.2rem;
+$Spacing-300: 2.4rem;
+$Spacing-200: 1.6rem;
+$Spacing-100: 0.8rem;
+$Spacing-50: 0.4rem;
+
+// Media queries
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: 375px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media (max-width: 1440px) {
+      @content;
+    }
+  }
+}
