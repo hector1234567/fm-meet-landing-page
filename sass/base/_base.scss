@@ -12,4 +12,8 @@ html {
 
 body {
   background-color: $White;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

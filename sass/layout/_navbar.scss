@@ -1,0 +1,10 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: $Spacing-1000;
+
+  svg {
+    width: 11.8rem;
+    height: 2.8rem;
+  }
+}

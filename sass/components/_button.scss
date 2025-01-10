@@ -1,0 +1,33 @@
+.btn {
+  border: none;
+  padding: 1.6rem 4rem;
+  border-radius: 5rem;
+  cursor: pointer;
+
+  @include text-preset-5;
+
+  color: $White;
+
+  mark {
+    background-color: inherit;
+    opacity: 0.5;
+    color: inherit;
+    margin-left: 0.4rem;
+  }
+
+  &--primary {
+    background-color: $Cyan-600;
+
+    &:hover {
+      background-color: $Cyan-300;
+    }
+  }
+
+  &--secondary {
+    background-color: $Purple-600;
+
+    &:hover {
+      background-color: $Purple-300;
+    }
+  }
+}

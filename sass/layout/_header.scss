@@ -1,0 +1,39 @@
+.header {
+  margin: $Spacing-800 0;
+  padding: $Spacing-300 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: $Spacing-400;
+
+  background-image: url(/assets/desktop/image-hero-left.png),
+    url(/assets/desktop/image-hero-right.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 56rem) top, calc(50% + 56rem) bottom;
+  background-size: 39.5rem 30.3rem;
+
+  & > * {
+    max-width: 44.5rem;
+  }
+
+  &__title {
+    @include text-preset-1;
+  }
+
+  &__text {
+    @include text-preset-4;
+
+    color: $Slate-600;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.7rem;
+  }
+}
