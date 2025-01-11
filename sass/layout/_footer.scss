@@ -15,6 +15,11 @@
     height: 32rem;
   }
 
+  @include respond(mobile) {
+    height: auto;
+    padding: 7rem 2rem;
+  }
+
   &__content {
     width: 112rem;
     display: flex;

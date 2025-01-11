@@ -10,6 +10,16 @@
 html {
   font-size: 62.5%;
 }
+@media screen and (max-width: 338px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 282px) {
+  html {
+    font-size: 45%;
+  }
+}
 
 body {
   background-color: #fafafa;
@@ -24,8 +34,8 @@ body {
   margin-top: 8rem;
 }
 .navbar svg {
-  width: 11.8rem;
-  height: 2.8rem;
+  width: 118px;
+  height: 28px;
 }
 
 .header {
@@ -47,6 +57,13 @@ body {
   .header {
     padding-top: 36rem;
     background-position: calc(50% - 22rem) top, calc(50% + 22rem) top;
+  }
+}
+@media (max-width: 695px) {
+  .header {
+    background-size: 20.805rem 16rem;
+    background-position: calc(50% - 11.4025rem) top, calc(50% + 11.4025rem) top;
+    padding-top: 22rem;
   }
 }
 .header > * {
@@ -90,6 +107,11 @@ body {
   justify-content: center;
   gap: 1.7rem;
 }
+@media (max-width: 695px) {
+  .header__buttons {
+    flex-direction: column;
+  }
+}
 
 .main-content {
   width: 112rem;
@@ -101,6 +123,11 @@ body {
 @media (max-width: 1162px) {
   .main-content {
     width: 68rem;
+  }
+}
+@media (max-width: 695px) {
+  .main-content {
+    width: 31.1rem;
   }
 }
 .main-content__number {
@@ -137,6 +164,14 @@ body {
 @media (max-width: 1162px) {
   .main-content__images {
     height: 16rem;
+  }
+}
+@media (max-width: 695px) {
+  .main-content__images {
+    height: 30.4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
   }
 }
 .main-content__image {
@@ -233,6 +268,12 @@ body {
 @media (max-width: 1162px) {
   .footer {
     height: 32rem;
+  }
+}
+@media (max-width: 695px) {
+  .footer {
+    height: auto;
+    padding: 7rem 2rem;
   }
 }
 .footer__content {
