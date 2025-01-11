@@ -5,7 +5,7 @@
   font-size: 6.4rem;
   line-height: 110%;
   letter-spacing: 0;
-  font-weight: 800;
+  font-weight: 900;
   color: $Slate-900;
 
   @include respond(tablet) {
@@ -22,7 +22,7 @@
   font-size: 4rem;
   line-height: 110%;
   letter-spacing: 0;
-  font-weight: 800;
+  font-weight: 900;
   color: $Slate-900;
 
   @include respond(tablet) {
@@ -39,7 +39,7 @@
   font-size: 1.6rem;
   line-height: 110%;
   letter-spacing: 0.4rem;
-  font-weight: 800;
+  font-weight: 900;
   color: $Cyan-600;
 
   @include respond(tablet) {
@@ -54,7 +54,7 @@
 @mixin text-preset-4 {
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.8rem;
-  line-height: 110%;
+  line-height: 150%;
   letter-spacing: 0;
   font-weight: 500;
   color: $Slate-900;
@@ -69,6 +69,6 @@
   font-size: 1.6rem;
   line-height: 150%;
   letter-spacing: 0;
-  font-weight: 800;
+  font-weight: 900;
   color: $Slate-900;
 }

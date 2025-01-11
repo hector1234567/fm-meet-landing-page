@@ -1,0 +1,95 @@
+.main-content {
+  width: 112rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+
+  &__number {
+    height: 13.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    background-image: linear-gradient(
+      90deg,
+      transparent calc(50% - 0.05rem),
+      $Slate-300 calc(50% - 0.05rem),
+      $Slate-300 calc(50% + 0.05rem),
+      transparent calc(50% + 0.05rem)
+    );
+
+    span {
+      width: 5.6rem;
+      height: 5.6rem;
+      z-index: 1;
+      border-radius: 6rem;
+      border: 0.1rem solid $Slate-300;
+      background-color: $White;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include text-preset-5;
+    }
+  }
+
+  &__images {
+    height: 25.6rem;
+    width: 100%;
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  &__image {
+    border-radius: 0.8rem;
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+
+    &--1 {
+      background-image: url(/assets/desktop/image-woman-in-videocall.jpg);
+    }
+
+    &--2 {
+      background-image: url(/assets/desktop/image-women-videochatting.jpg);
+    }
+
+    &--3 {
+      background-image: url(/assets/desktop/image-men-in-meeting.jpg);
+    }
+
+    &--4 {
+      background-image: url(/assets/desktop/image-man-texting.jpg);
+    }
+  }
+
+  &__article {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__subheading {
+    @include text-preset-3;
+
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
+  }
+
+  &__heading {
+    @include text-preset-2;
+
+    margin-bottom: 3.2rem;
+    max-width: 44.5rem;
+  }
+
+  &__text {
+    @include text-preset-4;
+
+    max-width: 54.4rem;
+  }
+}

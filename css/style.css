@@ -51,7 +51,7 @@ body {
   font-size: 6.4rem;
   line-height: 110%;
   letter-spacing: 0;
-  font-weight: 800;
+  font-weight: 900;
   color: #28283d;
 }
 @media (max-width: 768px) {
@@ -67,7 +67,7 @@ body {
 .header__text {
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.8rem;
-  line-height: 110%;
+  line-height: 150%;
   letter-spacing: 0;
   font-weight: 500;
   color: #28283d;
@@ -85,16 +85,186 @@ body {
   gap: 1.7rem;
 }
 
+.main-content {
+  width: 112rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+}
+.main-content__number {
+  height: 13.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: linear-gradient(90deg, transparent calc(50% - 0.05rem), #d1d1df calc(50% - 0.05rem), #d1d1df calc(50% + 0.05rem), transparent calc(50% + 0.05rem));
+}
+.main-content__number span {
+  width: 5.6rem;
+  height: 5.6rem;
+  z-index: 1;
+  border-radius: 6rem;
+  border: 0.1rem solid #d1d1df;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-weight: 900;
+  color: #28283d;
+}
+.main-content__images {
+  height: 25.6rem;
+  width: 100%;
+  display: flex;
+  gap: 3.2rem;
+}
+.main-content__image {
+  border-radius: 0.8rem;
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+}
+.main-content__image--1 {
+  background-image: url(/assets/desktop/image-woman-in-videocall.jpg);
+}
+.main-content__image--2 {
+  background-image: url(/assets/desktop/image-women-videochatting.jpg);
+}
+.main-content__image--3 {
+  background-image: url(/assets/desktop/image-men-in-meeting.jpg);
+}
+.main-content__image--4 {
+  background-image: url(/assets/desktop/image-man-texting.jpg);
+}
+.main-content__article {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content__subheading {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+  line-height: 110%;
+  letter-spacing: 0.4rem;
+  font-weight: 900;
+  color: #4d96a9;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .main-content__subheading {
+    font-size: 14px;
+  }
+}
+@media (max-width: 375px) {
+  .main-content__subheading {
+    font-size: 12px;
+  }
+}
+.main-content__heading {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 4rem;
+  line-height: 110%;
+  letter-spacing: 0;
+  font-weight: 900;
+  color: #28283d;
+  margin-bottom: 3.2rem;
+  max-width: 44.5rem;
+}
+@media (max-width: 768px) {
+  .main-content__heading {
+    font-size: 36px;
+  }
+}
+@media (max-width: 375px) {
+  .main-content__heading {
+    font-size: 32px;
+  }
+}
+.main-content__text {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.8rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #28283d;
+  max-width: 54.4rem;
+}
+@media (max-width: 768px) {
+  .main-content__text {
+    font-size: 16px;
+  }
+}
+
+.footer {
+  height: 31.2rem;
+  width: 100%;
+  background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url(/assets/desktop/image-footer.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__content {
+  width: 112rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer__heading {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 4rem;
+  line-height: 110%;
+  letter-spacing: 0;
+  font-weight: 900;
+  color: #28283d;
+  color: #fafafa;
+  width: 44.5rem;
+}
+@media (max-width: 768px) {
+  .footer__heading {
+    font-size: 36px;
+  }
+}
+@media (max-width: 375px) {
+  .footer__heading {
+    font-size: 32px;
+  }
+}
+.footer__text {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.8rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #28283d;
+  color: #fafafa;
+  width: 35.5rem;
+}
+@media (max-width: 768px) {
+  .footer__text {
+    font-size: 16px;
+  }
+}
+
 .btn {
   border: none;
   padding: 1.6rem 4rem;
   border-radius: 5rem;
   cursor: pointer;
+  text-wrap: nowrap;
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.6rem;
   line-height: 150%;
   letter-spacing: 0;
-  font-weight: 800;
+  font-weight: 900;
   color: #28283d;
   color: #fafafa;
 }
