@@ -118,7 +118,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 6.4rem;
-  margin-top: 3.5rem;
+  margin-top: 4rem;
 }
 @media (max-width: 1162px) {
   .main-content {
@@ -197,6 +197,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2rem;
 }
 .main-content__subheading {
   font-family: "Red Hat Display", sans-serif;
