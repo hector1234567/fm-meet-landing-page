@@ -37,6 +37,10 @@
 
     color: $Slate-600;
     max-width: 52.5rem;
+
+    @include respond(tablet) {
+      margin: 0 1rem;
+    }
   }
 
   &__buttons {
