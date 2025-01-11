@@ -11,32 +11,30 @@
 
   mark {
     background-color: inherit;
-    opacity: 0.5;
-    color: inherit;
     margin-left: 0.4rem;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 1;
   }
 
   &--primary {
     background-color: $Cyan-600;
 
-    &:hover {
-      background-color: $Cyan-300;
-    }
-
-    &:active {
-      background-color: $Cyan-600;
+    mark {
+      color: $Cyan-300;
     }
   }
 
   &--secondary {
     background-color: $Purple-600;
 
-    &:hover {
-      background-color: $Purple-300;
-    }
-
-    &:active {
-      background-color: $Purple-600;
+    mark {
+      color: $Purple-300;
     }
   }
 }

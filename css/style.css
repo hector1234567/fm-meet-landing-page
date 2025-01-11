@@ -117,8 +117,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6.4rem;
-  margin-top: 4rem;
+  gap: 6.2rem;
+  margin-top: 3.5rem;
+  margin-bottom: 0.3rem;
 }
 @media (max-width: 1162px) {
   .main-content {
@@ -354,27 +355,25 @@ body {
 }
 .btn mark {
   background-color: inherit;
-  opacity: 0.5;
-  color: inherit;
   margin-left: 0.4rem;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  opacity: 1;
 }
 .btn--primary {
   background-color: #4d96a9;
 }
-.btn--primary:hover {
-  background-color: #8fe3f9;
-}
-.btn--primary:active {
-  background-color: #4d96a9;
+.btn--primary mark {
+  color: #8fe3f9;
 }
 .btn--secondary {
   background-color: #855fb1;
 }
-.btn--secondary:hover {
-  background-color: #d9b8ff;
-}
-.btn--secondary:active {
-  background-color: #855fb1;
+.btn--secondary mark {
+  color: #d9b8ff;
 }
 
 /*# sourceMappingURL=style.css.map */
