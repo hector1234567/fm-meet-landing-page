@@ -5,6 +5,10 @@
   align-items: center;
   gap: 6.4rem;
 
+  @include respond(tablet) {
+    width: 68rem;
+  }
+
   &__number {
     height: 13.6rem;
     display: flex;
@@ -32,6 +36,8 @@
       justify-content: center;
 
       @include text-preset-5;
+
+      color: $Slate-600;
     }
   }
 
@@ -40,6 +46,10 @@
     width: 100%;
     display: flex;
     gap: 3.2rem;
+
+    @include respond(tablet) {
+      height: 16rem;
+    }
   }
 
   &__image {
@@ -91,5 +101,6 @@
     @include text-preset-4;
 
     max-width: 54.4rem;
+    color: $Slate-600;
   }
 }

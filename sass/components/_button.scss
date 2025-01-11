@@ -22,6 +22,10 @@
     &:hover {
       background-color: $Cyan-300;
     }
+
+    &:active {
+      background-color: $Cyan-600;
+    }
   }
 
   &--secondary {
@@ -29,6 +33,10 @@
 
     &:hover {
       background-color: $Purple-300;
+    }
+
+    &:active {
+      background-color: $Purple-600;
     }
   }
 }
