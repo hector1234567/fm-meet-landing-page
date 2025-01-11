@@ -27,18 +27,16 @@
     padding-top: 22rem;
   }
 
-  & > * {
-    max-width: 44.5rem;
-  }
-
   &__title {
     @include text-preset-1;
+    max-width: 44.5rem;
   }
 
   &__text {
     @include text-preset-4;
 
     color: $Slate-600;
+    max-width: 52.5rem;
   }
 
   &__buttons {
