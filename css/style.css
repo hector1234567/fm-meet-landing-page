@@ -33,6 +33,11 @@ body {
   justify-content: center;
   margin-top: 8rem;
 }
+@media (max-width: 1162px) {
+  .navbar {
+    margin-top: 5rem;
+  }
+}
 .navbar svg {
   width: 118px;
   height: 28px;
