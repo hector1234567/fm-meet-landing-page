@@ -275,6 +275,7 @@ body {
 @media (max-width: 1162px) {
   .footer {
     height: 32rem;
+    margin-top: -3.3rem;
   }
 }
 @media (max-width: 695px) {
