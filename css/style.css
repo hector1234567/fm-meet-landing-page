@@ -118,8 +118,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 6.2rem;
-  margin-top: 3.5rem;
-  margin-bottom: 0.3rem;
+  margin-top: 3.7rem;
+  margin-bottom: 0.7rem;
 }
 @media (max-width: 1162px) {
   .main-content {
@@ -337,6 +337,9 @@ body {
   .footer__text {
     width: auto;
   }
+}
+.footer .btn {
+  align-self: center;
 }
 
 .btn {
