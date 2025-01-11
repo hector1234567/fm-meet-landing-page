@@ -32,6 +32,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 8rem;
+  margin-bottom: 2rem;
 }
 .navbar svg {
   width: 118px;
